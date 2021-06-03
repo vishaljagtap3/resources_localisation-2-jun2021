@@ -15,7 +15,18 @@
         android:layout_height="@dimen/height"
         android:text="@string/welcome_message" />
 
-    <ImageView
+    <EditText
+        android:id="@+id/edtInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btnSetInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Set Info" />
+
+    <!--<ImageView
         android:src="@drawable/flag"
         android:layout_width="200dp"
         android:layout_height="150dp"/>
@@ -32,10 +43,6 @@
         android:id="@+id/edtInfo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
+-->
 
-    <Button
-        android:id="@+id/btnSetInfo"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Set Info" />
 </LinearLayout>
